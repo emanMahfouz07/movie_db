@@ -3,7 +3,6 @@ import 'package:movie_db/core/error/exceptions.dart';
 import 'package:movie_db/core/network/api_constance.dart';
 import 'package:movie_db/core/network/error_message_model.dart';
 import 'package:movie_db/movies/data/models/movie_model.dart';
-import 'package:movie_db/movies/domain/entities/movie.dart';
 
 abstract class BaseRemoteMovieDataSource {
   Future<List<MovieModel>> getNowPlayingMovies();
